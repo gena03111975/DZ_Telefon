@@ -1,6 +1,6 @@
 # пределывает файл в список 
 pbk = []
-with open("HW_python8/phone_book.txt" ,encoding="utf-8" ) as file:                 
+with open("DZ_TELEFON/telefon.py" ,encoding="utf-8" ) as file:                 
     pbk1 = (file.read())
 pbk = pbk1.split("\n")
 for i in range(0, len(pbk)):
@@ -27,7 +27,7 @@ def work_with_phonebook():
         elif choice==5:
             find_lem_phone_book(pbk)
         elif choice==6:
-            phone_book_finhs(pbk,'HW_python8/phone_book.txt' )
+            phone_book_finhs(pbk,"DZ_TELEFON/telefon.py" )
             break
         choice=show_menu()
 
