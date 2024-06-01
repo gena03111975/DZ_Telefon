@@ -1,6 +1,6 @@
 # пределывает файл в список 
 pbk = []
-with open("DZ_TELEFON/telefon.py" ,encoding="utf-8" ) as file:                 
+with open("DZ_TELEFON" ,encoding="utf-8" ) as file:                 
     pbk1 = (file.read())
 pbk = pbk1.split("\n")
 for i in range(0, len(pbk)):
